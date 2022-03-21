@@ -1,7 +1,4 @@
 module PIPE(F,A,B,C,D,clk);
-
-
-
  parameter N=9;
  input [N-1:0]A,B,C,D;
  input clk;
