@@ -12,32 +12,24 @@ module PIPE(F,A,B,C,D,clk);
     assign F=Fo;
 
        always@(posedge clk)
-
-		        begin
-
+	          
+	   begin
                #4 R0 <=  A + B ;
-
-	             #4 R1 <=  C - D ;
-
-	                R2 <=  D ;
-
-			       end	 
+               #4 R1 <=  C - D ;
+                  R2 <=  D ;
+           end	 
 
        always@(posedge clk)
 
-             begin
+           begin
+               #6 R3 <=  R0 + R1;
+                  R4 <=D;
+           end
 
-			          #6 R3 <=  R0 + R1;
+       always@(posedge clk)
 
-	                 R4 <=D;
-
-			       end
-
-	     always@(posedge clk)
-
-		         begin
-
-                #6 Fo <=  R3 * R4;
-             end
+           begin
+             #6 Fo <=  R3 * R4;
+           end
 
 endmodule
