@@ -28,3 +28,4 @@
 #### 1. The multiplicand is subtracted from the partial product upon encountering the first least significant 1 in a string of 1’s in the multiplier
 #### 2. The multiplicand is added to the partial product upon encountering the first 0 (provided that there was a previous ‘1’) in a string of 0’s in the multiplier.
 #### 3. The partial product does not change when the multiplier bit is identical to the previous multiplier bit.
+### MODIFIED BOOTH
