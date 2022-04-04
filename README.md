@@ -6,6 +6,8 @@
 ### 4. Tic_Tac_Toe Game
 ### 5. Simple RAM with [ W and R]
 ### 6. Sequence detection
+### 7. SR Flip flop
+### 8. Half Adder
 ## Assignment
 ###  1. Parking System
 ###### In the entrance of the parking system, there is a sensor which is activated to detect a vehicle coming. Once the sensor is triggered,
