@@ -20,3 +20,5 @@
 ###### STAGE 2 - Z = ALU(A,B,S)
 ###### STAGE 3 - STORE(@rd) = Z
 ###### STAGE 4 - MEMORY(@addr) = Z
+## COURSE PROJECT
+#### STATEMENT - Parallel Multiplier–Accumulator Based on Radix-2 Modified Booth Algorithm
