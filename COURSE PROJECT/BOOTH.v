@@ -1,4 +1,4 @@
-module Booth(X,Y,Z);
+module BOOTH(X,Y,Z);
  parameter N=8;
 input signed [N-1:0]X,Y;
 output signed [(2*N)-1:0]Z;
