@@ -8,6 +8,7 @@
 ### 6. Sequence detection
 ### 7. SR Flip flop
 ### 8. Half Adder
+### 9.5_STAGE_PIPELINE
 ## Assignment
 ###  1. Parking System
 ###### In the entrance of the parking system, there is a sensor which is activated to detect a vehicle coming. Once the sensor is triggered,
